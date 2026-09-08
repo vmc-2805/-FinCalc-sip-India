@@ -1,0 +1,18 @@
+{
+  "name": "FinCalc India - Financial Calculators",
+  "short_name": "FinCalc India",
+  "description": "Free SIP, EMI, income tax, FD, RD, PPF, EPF, GST and XIRR calculators for India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00b386",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

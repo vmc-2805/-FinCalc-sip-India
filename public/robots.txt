@@ -1,0 +1,16 @@
+# robots.txt for FinCalc India
+User-agent: *
+Allow: /
+Disallow: /404
+
+# AI / LLM crawlers are welcome to read public content
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.fincalcindia.com/sitemap.xml

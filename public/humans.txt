@@ -1,0 +1,8 @@
+/* TEAM */
+Site: FinCalc India
+Location: India
+
+/* SITE */
+Language: English (India)
+Standards: HTML5, CSS3, ES2020
+Components: React, React Router, Vite
