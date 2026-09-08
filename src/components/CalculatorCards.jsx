@@ -7,7 +7,7 @@ export default function CalculatorCards({ items, compact = false }) {
       {items.map((c) => (
         <Link key={c.slug} to={'/calculators/' + c.slug} className="calc-card-link">
           <strong>{compact ? c.name : c.shortName || c.name}</strong>
-          <span>{c.tagline}</span>
+          <span className="calc-card-desc">{c.tagline}</span>
           <CalcIcon name={c.icon} color={c.iconColor} />
         </Link>
       ))}
